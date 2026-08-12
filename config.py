@@ -1,22 +1,19 @@
 # ================== CONFIG ================== #
 
 # Token bot Telegram
-BOT_TOKEN = "7867931574:AAH1xHAe8gChvRvRsZrT8no4Oxo4FwMjg4Y"
+BOT_TOKEN = "7849804768:AAGn9jMqKcT_2FcAo17yFB_1nLH11lnjYqE"
 
 # Daftar channel yang akan dikirimi postingan otomatis
 CHANNELS = [
-    "@prediksiomtogel",
-    "@OMTOGEL",
-    "@Omtogeljppastibayar"  # ✅ Channel tambahan sudah ditambahkan di sini
-]
+    "@Seputarbandartoto24jam/9"
 
 # ID admin (hanya admin yang bisa akses fitur /addchannel, /removechannel, dll)
-ADMIN_ID = 6918801560
+ADMIN_ID = 8036153537
 
 # Tombol CTA di setiap postingan
 BUTTONS = {
-    "play": "🎮 MAINKAN SEKARANG DI OMTOGEL",
-    "play_url": "https://omtogelfine.org/",
-    "promo": "🎁 PROMO OMTOGEL",
-    "promo_url": "https://promosiku13.omtogel-prediksi.com/"
+    "play": "🎮 MAINKAN SEKARANG DI BANDARTOTO",
+    "play_url": "https://bandartotopola.com/",
+    "promo": "🎁 PROMO BANDARTOTO",
+    "promo_url": "https://promosi2.bandartotoprediksi.com/"
 }
