@@ -1,7 +1,7 @@
 # ================== CONFIG ================== #
 
 # Token bot Telegram
-BOT_TOKEN = "7849804768:AAGn9jMqKcT_2FcAo17yFB_1nLH11lnjYqE"
+BOT_TOKEN = "8609265918:AAHTbLGxdKd3xdL6CrPXTlppUva-ISPb6GU"
 
 # Daftar channel yang akan dikirimi postingan otomatis
 CHANNELS = [
