@@ -8,10 +8,10 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
 # === KONFIGURASI ===
-API_TOKEN = '7881253363:AAGdhwJVKIh0hymaTxD4yWyBHBxYMHOr25w'
-ADMIN_IDS = [5397964203, 1293577945]
-CHAT_ID = -1001974555012
-THREAD_ID = 10511
+API_TOKEN = '8609265918:AAHTbLGxdKd3xdL6CrPXTlppUva-ISPb6GU'
+ADMIN_IDS = [8036153537, 8851258385]
+CHAT_ID = -1003113573881
+THREAD_ID = 1760594640
 
 bot = Bot(token=API_TOKEN, parse_mode="HTML")
 dp = Dispatcher(bot)
@@ -19,7 +19,7 @@ sent_today = set()
 reminder_sent = set()
 
 def is_admin(user_id):
-    return user_id in ADMIN_IDS  # ✅ FIX: dukung multi admin
+    return user_id in ADMIN_IDS  
 
 def load_schedule():
     with open('jadwal.json') as f:
