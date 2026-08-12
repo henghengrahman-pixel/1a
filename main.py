@@ -11,7 +11,7 @@ from aiogram.utils import executor
 API_TOKEN = '8609265918:AAHTbLGxdKd3xdL6CrPXTlppUva-ISPb6GU'
 ADMIN_IDS = [8036153537, 8851258385]
 CHAT_ID = -1003113573881
-THREAD_ID = 1760594640
+THREAD_ID = 10511
 
 bot = Bot(token=API_TOKEN, parse_mode="HTML")
 dp = Dispatcher(bot)
