@@ -184,12 +184,12 @@ async def scheduler_loop():
                         buttons = types.InlineKeyboardMarkup(row_width=2)
                         buttons.add(
                             types.InlineKeyboardButton(
-                                "🎮 LOGIN RUPIAHTOTO",
-                                url="https://rupiahtotoplay.com/",
+                                "🎮 LOGIN BANDARTOTO ",
+                                url="https://bandartotopola.com/",
                             ),
                             types.InlineKeyboardButton(
-                                "🎁 PROMO RUPIAHTOTO",
-                                url="https://prediksi3.rupiahtotoprediksi.com/",
+                                "🎁 PROMO BANDARTOTO",
+                                url="https://promosi2.bandartotoprediksi.com/",
                             ),
                         )
 
@@ -234,7 +234,7 @@ async def reset_daily_loop():
 @dp.message_handler(commands=["start"])
 async def cmd_start(message: types.Message):
     if not is_admin(message.from_user.id):
-        await message.reply("🛑 Silahkan chat Admin Rupiahtoto @rupiahtoto ")
+        await message.reply("🛑 Silahkan chat Admin BANDARTOTO https://t.me/Bandartotoreal ")
         return
 
     await message.reply(
