@@ -63,8 +63,8 @@ async def send_prediction(pasaran):
     teks = f"<b>🧿 PREDIKSI PASARAN {pasaran.upper()}</b>\n\n{generate_prediction()}"
     buttons = types.InlineKeyboardMarkup()
     buttons.add(
-        types.InlineKeyboardButton("🎮 LOGIN RUPIAHTOTO", url="https://rupiahidn.com"),
-        types.InlineKeyboardButton("🎁 PROMO RUPIAHTOTO", url="https://promosi.rupiahtotoprediksi.com/")
+        types.InlineKeyboardButton("🎮 LOGIN BANDARTOTO", url="https://bandartotopola.com/"),
+        types.InlineKeyboardButton("🎁 PROMO BANDARTOTO", url="https://promosi2.bandartotoprediksi.com/")
     )
     try:
         msg = await bot.send_message(chat_id=CHAT_ID, message_thread_id=THREAD_ID, text=teks, reply_markup=buttons)
