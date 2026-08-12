@@ -101,7 +101,7 @@ def generate_message():
         )
 
     footer = (
-        "🚀 Waktunya Panen Menang di OmTogel!! Jaga Profit!!"
+        "🚀 Waktunya Panen Menang di BANDARTOTO!! Jaga Profit!!"
     )
 
     return header + body + footer
@@ -173,7 +173,7 @@ async def start_scheduler():
     scheduler.start()
 
     print("======================================")
-    print(" BOT RTP OMTOGEL AKTIF")
+    print(" BOT RTP BANDARTOTO AKTIF")
     print(" INTERVAL : 30 MENIT")
     print(" MAINTENANCE : DIHAPUS")
     print("======================================")
