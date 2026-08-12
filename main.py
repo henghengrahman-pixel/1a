@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent
 API_TOKEN = os.getenv("BOT_TOKEN", "8609265918:AAHTbLGxdKd3xdL6CrPXTlppUva-ISPb6GU").strip()
 ADMIN_IDS = [8036153537, 8851258385]
 CHAT_ID = -1003113573881
-THREAD_ID = 10511
+THREAD_ID = 11
 
 if not API_TOKEN:
     raise RuntimeError("BOT_TOKEN kosong. Isi environment variable BOT_TOKEN di Railway.")
